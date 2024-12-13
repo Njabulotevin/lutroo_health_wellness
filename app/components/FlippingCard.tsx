@@ -20,21 +20,15 @@ export default function FlippingCard({
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
-    // if (flipTrigger === 'click') {
       setIsFlipped(!isFlipped);
-    // }
   };
 
   const handleMouseEnter = () => {
-    // if (flipTrigger === 'hover') {
       setIsFlipped(true);
-    // }
   };
 
   const handleMouseLeave = () => {
-    // if (flipTrigger === 'hover') {
       setIsFlipped(false);
-    // }
   };
 
   return (
